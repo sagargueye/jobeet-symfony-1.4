@@ -30,10 +30,6 @@ abstract class BaseJobeetCategoryForm extends BaseFormDoctrine
       'jobeet_affiliates_list' => new sfValidatorDoctrineChoice(array('multiple' => true, 'model' => 'JobeetAffiliate', 'required' => false)),
     ));
 
-    $this->validatorSchema->setPostValidator(
-      new sfValidatorDoctrineUnique(array('model' => 'JobeetCategory', 'column' => array('name')))
-    );
-
     $this->widgetSchema->setNameFormat('jobeet_category[%s]');
 
     $this->errorSchema = new sfValidatorErrorSchema($this->validatorSchema);

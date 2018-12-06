@@ -16,15 +16,15 @@ homepage:
   url:   /
   param: { module: job, action: index }
  
-
-  
 job:
-  url:     /job.:sf_format
-  class:   sfDoctrineRoute
-  options: { model: JobeetJob, type: list }
-  param:   { module: job, action: index, sf_format: html }
-  requirements: { sf_method: get }
- 
+  class:   sfDoctrineRouteCollection
+  options:
+    model:          JobeetJob
+    column:         token
+    object_actions: { publish: PUT, extend: PUT }
+  requirements:
+    token: \w+
+
 job_new:
   url:     /job/new.:sf_format
   class:   sfDoctrineRoute

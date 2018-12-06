@@ -12,16 +12,46 @@ class JobeetJobTable extends Doctrine_Table
      *
      * @return object JobeetJobTable
      */
+    static public $types = array(
+        'full-time' => 'Full time',
+        'part-time' => 'Part time',
+        'freelance' => 'Freelance',
+    );
+
+    public function getTypes()
+    {
+        return self::$types;
+    }
     public static function getInstance()
     {
         return Doctrine_Core::getTable('JobeetJob');
     }
-	 public function getActiveJobs()
-  {
-    $q = $this->createQuery('j')
-      ->where('j.expires_at > ?', date('Y-m-d H:i:s', time()));
- 
-    return $q->execute();
-  }
 
+    public function getActiveJobs()
+    {
+        if (is_null($q))
+        {
+            $q = Doctrine_Query::create()
+                ->from('JobeetJob j');
+        }
+
+        $q->andWhere('j.expires_at > ?', date('Y-m-d H:i:s', time()))
+            ->addOrderBy('j.expires_at DESC');
+
+        return $q->execute();
+    }
+    public function addActiveJobsQuery(Doctrine_Query $q = null)
+    {
+        // ...
+
+        $q->andWhere($alias . '.is_activated = ?', 1);
+
+        return $q;
+    }
+    public function retrieveBackendJobList(Doctrine_Query $q)
+    {
+        $rootAlias = $q->getRootAlias();
+        $q->leftJoin($rootAlias . '.JobeetCategory c');
+        return $q;
+    }
 }

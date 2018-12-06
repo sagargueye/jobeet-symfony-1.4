@@ -32,7 +32,7 @@ abstract class BaseJobeetCategory extends sfDoctrineRecord
         $this->hasColumn('name', 'string', 255, array(
              'type' => 'string',
              'notnull' => true,
-             'unique' => true,
+             'unique' => false,
              'length' => 255,
              ));
     }
