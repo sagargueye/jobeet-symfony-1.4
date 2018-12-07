@@ -4,8 +4,10 @@
 <head>
     <title>Jobeet - Your best job board</title>
     <link rel="shortcut icon" href="/favicon.ico" />
+    <?php use_javascript('jquery-1.2.6.min.js') ?>
+    <?php use_javascript('search.js') ?>
     <?php include_javascripts() ?>
-    <?php include_stylesheets() ?>
+
 </head>
 <body>
 <div id="job_history">
@@ -18,7 +20,17 @@
         <?php endforeach ?>
     </ul>
 </div>
-
+<div class="search">
+    <h2>Ask for a job</h2>
+    <form action="<?php echo url_for('job_search') ?>" method="get">
+        <input type="text" name="query" value="<?php echo $sf_request->getParameter('query') ?>" id="search_keywords" />
+        <input type="submit" value="search" />
+        <img id="loader" src="/legacy/images/loader.gif" style="vertical-align: middle; display: none" />
+        <div class="help">
+            Enter some keywords (city, country, position, ...)
+        </div>
+    </form>
+</div>
 <div class="content">
     <?php echo $sf_content ?>
 </div>
@@ -82,7 +94,9 @@
                 <li><a href="">About Jobeet</a></li>
                 <li class="feed"><a href="">Full feed</a></li>
                 <li><a href="">Jobeet API</a></li>
-                <li class="last"><a href="">Affiliates</a></li>
+                <li class="last">
+                    <a href="<?php echo url_for('affiliate_new') ?>">Become an affiliate</a>
+                </li>
             </ul>
         </div>
     </div>

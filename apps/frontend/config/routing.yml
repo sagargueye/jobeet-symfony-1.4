@@ -66,3 +66,25 @@ job_show:
   options: { model: JobeetJob, type: object }
   param:   { module: job, action: show, sf_format: html }
   requirements: { sf_method: get }
+
+api_jobs:
+  url:     /api/:token/jobs.:sf_format
+  class:   sfDoctrineRoute
+  param:   { module: api, action: list }
+  options: { model: JobeetJob, type: list, method: getForToken }
+  requirements:
+    sf_format: (?:xml|json|yaml)
+
+affiliate:
+  class:   sfDoctrineRouteCollection
+  options:
+    model: JobeetAffiliate
+    actions: [new, create]
+    object_actions: { wait: get }
+
+affiliate_create:
+  url:     /affiliate/create.:sf_format
+  class:   sfDoctrineRouteCollection
+  options: { model: JobeetAffiliate, type: object }
+  param:   { module: affiliate, action: create, sf_format: html }
+  requirements: { sf_method: get }

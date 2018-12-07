@@ -54,4 +54,26 @@ class JobeetJobTable extends Doctrine_Table
         $q->leftJoin($rootAlias . '.JobeetCategory c');
         return $q;
     }
+    public function getForToken($query)
+    {
+        $affiliate = Doctrine_Core::getTable('JobeetAffiliate') ->findOneByToken($parameters['token']);
+        if (!$affiliate || !$affiliate->getIsActive())
+        {
+            throw new sfError404Exception(sprintf('Affiliate with token "%s" does not exist or is not activated.', $parameters['token']));
+        }
+
+        return $affiliate->getActiveJobs();
+    }
+    public function  getForLuceneQuery($query)
+    {
+        $q = $this->createQuery();
+        $q->where("position like '%".$query."%'");
+        $q->orWhere("company like '%".$query."%'");
+        $q->orWhere("location like '%".$query."%'");
+
+        //$q = Doctrine_Core::getTable('Jobeetjob')->findBySql($dql);
+
+        return $q->execute();
+    }
+
 }

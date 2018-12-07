@@ -8,7 +8,7 @@
  * file that was distributed with this source code.
  */
 
-$app = 'frontend';
+$app = 'backend_dev';
 require_once(dirname(__FILE__).'/../bootstrap/functional.php');
 
 $t = new lime_test(23);

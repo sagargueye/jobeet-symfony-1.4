@@ -1,3 +1,12 @@
+jobeet_affiliate:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                JobeetAffiliate
+    module:               affiliate
+    prefix_path:          /affiliate
+    column:               id
+    with_wildcard_routes: true
+
 jobeet_category:
   class: sfDoctrineRouteCollection
   options:
@@ -16,6 +25,13 @@ jobeet_job:
     column:               id
     with_wildcard_routes: true
 
+job_show:
+  url:     /job/:id.:sf_format
+  class:   sfDoctrineRoute
+  options: { model: JobeetJob, type: object }
+  param:   { module: job, action: show, sf_format: html }
+  requirements: { sf_method: get }
+
 # You can find more information about this file on the symfony website:
 # http://www.symfony-project.org/reference/1_4/en/10-Routing
 
@@ -25,9 +41,18 @@ homepage:
   param: { module: job, action: index }
 # generic rules
 # please, remove them by adding more specific rules
+
+job_search:
+  url:   /search.:sf_format
+  param: { module: job, action: search, sf_format: html }
+  requirements:
+    sf_format: (?:html|js)
+
 default_index:
   url:   /:module
   param: { action: index }
 
 default:
   url:   /:module/:action/*
+
+
