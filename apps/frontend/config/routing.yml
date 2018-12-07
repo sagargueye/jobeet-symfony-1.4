@@ -2,6 +2,11 @@
 # http://www.symfony-project.org/reference/1_4/en/10-Routing
 
 # default rules
+user:
+  url: /job/new.:sf_format
+  options: { model: JobeetJob, type: object }
+  param:   { module: job, action: show }
+
 job_show_user:
   url:     /job/:company_slug/:location_slug/:id/:position_slug
   class:   sfDoctrineRoute

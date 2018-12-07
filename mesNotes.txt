@@ -1,0 +1,18 @@
+cours widgets --> https://symfony.com/legacy/doc/forms/1_2/fr/a-widgets
+**********************************************************************
+url_for('module/action')
+methode symfony qui crée une route (url qui donne sur une page)
+on definit le modele dans le fichier config/routing du mondule et 
+definnir l'action
+***********************************************************************
+ include_partial('mypartial', array('myvar' => 12345));
+ * @param  string $templateName  partial name
+ * @param  array  $vars          variables to be made accessible to the partial
+* Evaluates and echoes a partial.
+ * The partial name is composed as follows: 'mymodule/mypartial'.
+ * The partial file name is _mypartial.php and is looked for in modules/mymodule/templates/.
+ * If the partial name doesn't include a module name,
+ * then the partial file is searched for in the caller's template/ directory.
+ * If the module name is 'global', then the partial file is looked for in myapp/templates/.
+ * For a variable to be accessible to the partial, it has to be passed in the second argument.
+ 

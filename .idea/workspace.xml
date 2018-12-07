@@ -2,51 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="682bfea7-5006-4c2d-9439-0db25f11373c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/apps/backend/modules/job/templates/searchSuccess.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/backend/modules/job/templates/showSuccess.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/frontend/modules/affiliate/templates/waitSuccess.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/fixtures/affiliates.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/search.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/backend/config/routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/apps/backend/config/routing.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/backend/config/settings.yml" beforeDir="false" afterPath="$PROJECT_DIR$/apps/backend/config/settings.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/backend/lib/myUser.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/apps/backend/lib/myUser.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/backend/modules/job/actions/actions.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/apps/backend/modules/job/actions/actions.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/backend/templates/layout.php" beforeDir="false" afterPath="$PROJECT_DIR$/apps/backend/templates/layout.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/frontend/config/routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/apps/frontend/config/routing.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/frontend/config/security.yml" beforeDir="false" afterPath="$PROJECT_DIR$/apps/frontend/config/security.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/frontend/modules/job/actions/actions.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/apps/frontend/modules/job/actions/actions.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/frontend/templates/layout.php" beforeDir="false" afterPath="$PROJECT_DIR$/apps/frontend/templates/layout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/backend/dev/config/config_autoload.yml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/backend/dev/config/config_autoload.yml.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/backend/dev/config/config_routing.yml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/backend/dev/config/config_routing.yml.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/backend/dev/config/config_settings.yml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/backend/dev/config/config_settings.yml.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/backend/dev/config/modules_job_config_generator.yml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/backend/dev/config/modules_job_config_generator.yml.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/backend/dev/config/modules_job_config_security.yml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/backend/dev/config/modules_job_config_security.yml.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/backend/dev/modules/autoJob/lib/BaseJobGeneratorConfiguration.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/backend/dev/modules/autoJob/lib/BaseJobGeneratorConfiguration.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/backend/dev/modules/autoJob/templates/_list.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/backend/dev/modules/autoJob/templates/_list.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/backend/dev/modules/autoJob/templates/_list_actions.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/backend/dev/modules/autoJob/templates/_list_actions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/backend/dev/modules/autoJob/templates/_list_batch_actions.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/backend/dev/modules/autoJob/templates/_list_batch_actions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/backend/dev/modules/autoJob/templates/_list_td_actions.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/backend/dev/modules/autoJob/templates/_list_td_actions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/backend/dev/modules/autoJob/templates/_list_td_stacked.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/backend/dev/modules/autoJob/templates/_list_td_stacked.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/backend/dev/modules/autoJob/templates/_list_td_tabular.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/backend/dev/modules/autoJob/templates/_list_td_tabular.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/backend/dev/modules/autoJob/templates/_list_th_tabular.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/backend/dev/modules/autoJob/templates/_list_th_tabular.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/backend/dev/modules/autoJob/templates/editSuccess.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/backend/dev/modules/autoJob/templates/editSuccess.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/backend/dev/modules/autoJob/templates/indexSuccess.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/backend/dev/modules/autoJob/templates/indexSuccess.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/backend/dev/modules/autoJob/templates/newSuccess.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/backend/dev/modules/autoJob/templates/newSuccess.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/backend/prod/config/config_autoload.yml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/backend/prod/config/config_autoload.yml.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/frontend/dev/config/config_autoload.yml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/frontend/dev/config/config_autoload.yml.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/frontend/dev/config/config_routing.yml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/frontend/dev/config/config_routing.yml.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/frontend/dev/config/modules_default_config_security.yml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/frontend/dev/config/modules_default_config_security.yml.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/frontend/dev/config/modules_job_config_security.yml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/frontend/dev/config/modules_job_config_security.yml.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/frontend/prod/config/config_autoload.yml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/frontend/prod/config/config_autoload.yml.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/frontend/test/config/config_app.yml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/frontend/test/config/config_app.yml.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/ProjectConfiguration.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/ProjectConfiguration.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/sql/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/data/sql/schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/form/doctrine/JobeetAffiliateForm.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/form/doctrine/JobeetAffiliateForm.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/model/doctrine/JobeetAffiliate.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/model/doctrine/JobeetAffiliate.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/model/doctrine/JobeetJob.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/model/doctrine/JobeetJob.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/model/doctrine/JobeetJobTable.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/model/doctrine/JobeetJobTable.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/test/functional/PagerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/test/functional/PagerTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/backend_dev.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/backend_dev.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,28 +15,56 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/backend/modules/job/templates/searchSuccess.php">
+        <entry file="file://$PROJECT_DIR$/apps/frontend/config/routing.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/model/doctrine/JobeetJobTable.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="71" column="37" selection-start-line="71" selection-start-column="37" selection-end-line="71" selection-end-column="37" />
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/frontend/modules/api/actions/actions.class.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/backend/templates/layout.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+            <state relative-caret-position="100">
+              <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/data/generator/sfDoctrineForm/default/template/sfDoctrinePluginFormTemplate.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/frontend/modules/job/templates/showSuccess.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/frontend/modules/job/templates/newSuccess.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/frontend/modules/job/templates/_form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -87,50 +72,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/vendor/symfony/lib/helper/UrlHelper.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="120" column="9" selection-start-line="120" selection-start-column="9" selection-end-line="120" selection-end-column="9" />
+            <state relative-caret-position="-215">
+              <caret line="206" column="1" lean-forward="true" selection-start-line="206" selection-start-column="1" selection-end-line="206" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/frontend/modules/job/templates/_form.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/frontend/modules/job/templates/editSuccess.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/backend/modules/job/templates/showSuccess.php">
+        <entry file="file://$PROJECT_DIR$/lib/vendor/symfony/lib/helper/I18NHelper.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="33" selection-start-line="33" selection-end-line="38" selection-end-column="6" />
+            <state relative-caret-position="323">
+              <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/vendor/symfony/lib/util/sfToolkit.class.php">
+        <entry file="file://$PROJECT_DIR$/lib/form/BaseForm.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5508" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/backend/modules/job/actions/actions.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="60" column="19" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
+            <state relative-caret-position="170">
+              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/backend/modules/job/templates/_generated_token.php">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -155,7 +118,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/apps/frontend/config/app.yml" />
         <option value="$PROJECT_DIR$/lib/model/doctrine/JobeetCategory.class.php" />
         <option value="$PROJECT_DIR$/apps/frontend/modules/job/templates/indexSuccess.php" />
         <option value="$PROJECT_DIR$/apps/frontend/modules/job/templates/newSuccess.php" />
@@ -193,8 +155,6 @@
         <option value="$PROJECT_DIR$/apps/frontend/modules/affiliate/templates/_form.php" />
         <option value="$PROJECT_DIR$/apps/frontend/modules/affiliate/templates/indexSuccess.php" />
         <option value="$PROJECT_DIR$/apps/frontend/config/security.yml" />
-        <option value="$PROJECT_DIR$/apps/frontend/config/routing.yml" />
-        <option value="$PROJECT_DIR$/apps/backend/templates/layout.php" />
         <option value="$PROJECT_DIR$/apps/frontend/templates/layout.php" />
         <option value="$PROJECT_DIR$/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Table.php" />
         <option value="$PROJECT_DIR$/cache/backend/dev/modules/autoJob/templates/_list_td_tabular.php" />
@@ -206,6 +166,9 @@
         <option value="$PROJECT_DIR$/cache/backend/dev/modules/autoJob/templates/editSuccess.php" />
         <option value="$PROJECT_DIR$/apps/backend/modules/job/templates/showSuccess.php" />
         <option value="$PROJECT_DIR$/apps/backend/modules/job/templates/searchSuccess.php" />
+        <option value="$PROJECT_DIR$/web/backend.php" />
+        <option value="$PROJECT_DIR$/apps/backend/templates/layout.php" />
+        <option value="$PROJECT_DIR$/apps/frontend/config/routing.yml" />
       </list>
     </option>
   </component>
@@ -333,15 +296,6 @@
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
               <item name="job" type="462c0819:PsiDirectoryNode" />
-              <item name="actions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jobeetHome" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jobeetHome" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="job" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -350,135 +304,6 @@
               <item name="apps" type="462c0819:PsiDirectoryNode" />
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jobeetHome" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jobeetHome" type="462c0819:PsiDirectoryNode" />
-              <item name="cache" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jobeetHome" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jobeetHome" type="462c0819:PsiDirectoryNode" />
-              <item name="cache" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jobeetHome" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jobeetHome" type="462c0819:PsiDirectoryNode" />
-              <item name="cache" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="dev" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jobeetHome" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jobeetHome" type="462c0819:PsiDirectoryNode" />
-              <item name="cache" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="dev" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jobeetHome" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jobeetHome" type="462c0819:PsiDirectoryNode" />
-              <item name="cache" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="dev" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="autoJob" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jobeetHome" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jobeetHome" type="462c0819:PsiDirectoryNode" />
-              <item name="cache" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="dev" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="autoJob" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jobeetHome" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jobeetHome" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jobeetHome" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jobeetHome" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="doctrine" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jobeetHome" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jobeetHome" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jobeetHome" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jobeetHome" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jobeetHome" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jobeetHome" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="doctrine" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jobeetHome" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jobeetHome" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="doctrine" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jobeetHome" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jobeetHome" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jobeetHome" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jobeetHome" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="symfony" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jobeetHome" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jobeetHome" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="symfony" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jobeetHome" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jobeetHome" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="symfony" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jobeetHome" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jobeetHome" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jobeetHome" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jobeetHome" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jobeetHome" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jobeetHome" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="uploads" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -526,12 +351,12 @@
       <option name="presentableId" value="Default" />
       <updated>1544089760981</updated>
       <workItem from="1544089762622" duration="22100000" />
-      <workItem from="1544169257566" duration="20152000" />
+      <workItem from="1544169257566" duration="25275000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42252000" />
+    <option name="totallyTimeSpent" value="47375000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -571,92 +396,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/apps/backend/modules/job/config/generator.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/widget/sfWidgetFormDoctrineChoice.class.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Collection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4062">
-          <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/vendor/symfony/lib/routing/sfRouting.class.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/model/doctrine/JobeetAffiliate.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/model/doctrine/JobeetAffiliateTable.class.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/model/doctrine/JobeetCategory.class.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/model/doctrine/JobeetCategoryAffiliate.class.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/model/doctrine/JobeetCategoryAffiliateTable.class.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/model/doctrine/JobeetCategoryTable.class.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/date/date.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2425">
-          <caret line="797" column="9" selection-start-line="797" selection-start-column="9" selection-end-line="797" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Query.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1240">
-          <caret line="530" column="20" lean-forward="true" selection-start-line="530" selection-start-column="20" selection-end-line="530" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Query/Abstract.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="1288" column="5" lean-forward="true" selection-start-line="1288" selection-start-column="5" selection-end-line="1288" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/model/doctrine/base/BaseJobeetCategory.class.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/model/doctrine/base/BaseJobeetJob.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1399">
-          <caret line="28" column="37" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Core.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16022">
-          <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/vendor/symfony/lib/addon/sfPager.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4913">
-          <caret line="295" column="18" selection-start-line="295" selection-start-column="18" selection-end-line="295" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cache/backend/dev/modules/autoJob/templates/_list_th_tabular.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/lib/vendor/doctrine/Doctrine/Table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
@@ -678,24 +417,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/vendor/symfony/lib/helper/PartialHelper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="181" column="16" selection-start-line="181" selection-start-column="16" selection-end-line="181" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cache/backend/dev/modules/autoJob/templates/_list.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="61" lean-forward="true" selection-start-line="2" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/frontend/modules/job/templates/newSuccess.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -727,13 +452,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/backend/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/vendor/symfony/lib/controller/sfController.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-408" />
@@ -743,13 +461,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/frontend/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="62" selection-start-line="62" selection-end-line="67" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -779,13 +490,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/frontend/modules/job/templates/showSuccess.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/frontend/templates/_admin.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -810,18 +514,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/frontend/modules/job/templates/_form.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/frontend/modules/job/templates/editSuccess.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/backend/modules/job/actions/actions.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="60" column="19" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/backend/modules/job/templates/_generated_token.php">
       <provider selected="true" editor-type-id="text-editor" />
@@ -838,17 +532,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/backend/templates/layout.php">
+    <entry file="file://$PROJECT_DIR$/web/backend.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        <state relative-caret-position="51">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/vendor/symfony/lib/helper/UrlHelper.php">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="120" column="9" selection-start-line="120" selection-start-column="9" selection-end-line="120" selection-end-column="9" />
+        <state relative-caret-position="448">
+          <caret line="240" lean-forward="true" selection-start-line="240" selection-end-line="240" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/main.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/backend_dev.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="13" />
         </state>
       </provider>
     </entry>
@@ -861,10 +568,136 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/model/doctrine/JobeetJobTable.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="71" column="37" selection-start-line="71" selection-start-column="37" selection-end-line="71" selection-end-column="37" />
+        <state relative-caret-position="953">
+          <caret line="67" column="5" lean-forward="true" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/uploads/jobs/c092a517891e109becaf9d02926f7fe02a07bd44.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/uploads/jobs/d544355c5bb554ed0be04f9ee2c0a636a138172e.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/vendor/symfony/lib/helper/AssetHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="510" column="9" selection-start-line="510" selection-start-column="9" selection-end-line="510" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/backend/modules/job/config/generator.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/backend/config/security.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/backend/modules/job/actions/actions.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="865">
+          <caret line="63" column="33" selection-start-line="63" selection-start-column="20" selection-end-line="63" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/backend/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="45" column="27" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/frontend/modules/job/templates/showSuccess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/vendor/symfony/lib/helper/PartialHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="177" column="41" lean-forward="true" selection-start-line="177" selection-start-column="41" selection-end-line="177" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/frontend/modules/job/templates/newSuccess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/form/BaseForm.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/test/functional/fixtures/lib/form/BaseForm.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/vendor/symfony/lib/form/sfForm.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="910" column="18" selection-start-line="910" selection-start-column="18" selection-end-line="910" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/vendor/symfony/lib/helper/I18NHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cache/backend/prod/modules/autoJob/templates/_list_batch_actions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/frontend/modules/job/templates/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/vendor/symfony/lib/helper/UrlHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-215">
+          <caret line="206" column="1" lean-forward="true" selection-start-line="206" selection-start-column="1" selection-end-line="206" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/frontend/modules/api/templates/indexSuccess.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/frontend/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/frontend/modules/api/actions/actions.class.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/backend/templates/layout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/vendor/symfony/lib/plugins/sfDoctrinePlugin/data/generator/sfDoctrineForm/default/template/sfDoctrinePluginFormTemplate.php">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
